@@ -1,0 +1,121 @@
+#ngbody {
+    background-image:url("img/listening3.jpeg");
+    background-size: cover;
+    color: black;
+    font-size:24px;
+}
+tr:hover{
+    background-color:white;
+    
+}
+#contentArea{
+  height:90%;
+  color:black;
+    opacity: 0.95;
+}
+.label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.button {
+    background-color: lightskyblue; ;
+    border: solid white ;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    border: solid RGB(16,171,150);
+}
+
+
+
+
+
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Lato;
+    font-weight: 500;
+    color: #424949;
+    background-color: #ECF0F1;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    height: 38px;
+    margin: 60px 0;
+}
+h1 span {
+    white-space: nowrap;
+}
+
+
+@media (min-width: 1250px) {
+    .input-flex-container {
+        margin-left: 62.5px;
+    }
+
+    input::before {
+        left: -37.5px;
+    }
+    input::after {
+        right: -37.5px;
+    }
+
+    .dot-info {
+        left: calc((((1000px - 25px) / 20) * -1) - 1px);
+    }
+
+    #timeline-descriptions-wrapper {
+        margin-left: -37.5px;
+    }
+}
+
+
+
+
+.search-container {
+  float:left
+}
+
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  color:black;
+}
+.search-container button {
+  float: left;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
